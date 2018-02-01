@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "646183565853",
+    "firebase_url": "https://seouri-182412.firebaseio.com",
+    "project_id": "seouri-182412",
+    "storage_bucket": "seouri-182412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646183565853:android:0e85eddd63dad09b",
+        "android_client_info": {
+          "package_name": "sopt.seouri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646183565853-d3oi4vuujk6oucbinhe2v601c7trdikl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-yLk5TIwtTlYlN6aIygskVO70Gg2QdH8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

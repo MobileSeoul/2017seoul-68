@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sopt.seouri.ask.AskPostFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#D0EDEA"></View>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="제목"
+            android:layout_marginTop="35dp"
+            app:font = "Bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginLeft="10dp"
+            app:font = "custom1"
+            android:textSize="16sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="14dp"
+            android:id="@+id/ask_post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:background="@drawable/mint_round_border_mypage"
+        android:padding="15dp"
+        android:layout_marginTop="31dp"
+        app:font="custom1"
+        android:textSize="16sp"
+        android:id="@+id/ask_post_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ask_post_confirm"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ok"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

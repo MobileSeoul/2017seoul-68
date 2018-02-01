@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="sopt.seouri.recommend.RecommendDetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/recommend_img"
+            android:layout_width="match_parent"
+            android:layout_height="218dp" />
+
+        <ImageView
+            android:id="@+id/reco_comment_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"></ImageView>
+
+        <ImageView
+            android:id="@+id/recommend_text_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/reco_home_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/house" />
+
+                <TextView
+                    android:id="@+id/reco_compa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toRightOf="@id/reco_home_img"
+                    android:text="꿈 더하기 베이커리"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reco_home_img"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/yellowline" />
+
+                <TextView
+                    android:id="@+id/reco_coma_comment1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/reco_compa1"
+                    android:layout_below="@id/reco_compa1"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="10dip"
+                    android:text="부가 내용"
+                    android:textColor="#95989A"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/reco_home_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/house" />
+
+                <TextView
+                    android:id="@+id/reco_compa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toRightOf="@id/reco_home_img2"
+                    android:text="꿈 더하기 베이커리"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reco_home_img2"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/yellowline" />
+
+                <TextView
+                    android:id="@+id/reco_coma_comment2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/reco_compa2"
+                    android:layout_below="@id/reco_compa2"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="10dip"
+                    android:text="부가 내용"
+                    android:textColor="#95989A"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/reco_home_img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/house" />
+
+                <TextView
+                    android:id="@+id/reco_compa3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toRightOf="@id/reco_home_img3"
+                    android:text="꿈 더하기 베이커리"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reco_home_img3"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/yellowline" />
+
+                <TextView
+                    android:id="@+id/reco_coma_comment3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/reco_compa3"
+                    android:layout_below="@id/reco_compa3"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="10dip"
+                    android:text="부가 내용"
+                    android:textColor="#95989A"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

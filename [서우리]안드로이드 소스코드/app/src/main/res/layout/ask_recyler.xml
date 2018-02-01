@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ask_list_img"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="14dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_toRightOf="@id/ask_list_img"
+            android:text="희망마을 운영자"
+            android:textColor="#333333"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="6dp"
+            app:font = "Bold"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ask_time"
+            android:layout_alignParentRight="true"
+            android:text="17.08.18 17:45"
+            app:font = "Bold"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ask_content"
+            android:text="구인구직 신청은 어떻게 하는 건가요?"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            app:font = "Bold"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/ask_state"
+            android:text="답변 완료"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="21dp"
+        android:background="#50000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+
+</LinearLayout>

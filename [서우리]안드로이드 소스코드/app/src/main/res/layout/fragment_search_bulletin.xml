@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sopt.seouri.community.SearchBulletinFragment">
+
+    <View
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#D0EDEA"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"></View>
+
+    <RelativeLayout
+        android:background="@drawable/yellowbox"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/S_edit"
+            android:padding="8dp"
+            android:completionHint="pick an item"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/search2_btn"
+            android:layout_centerVertical="true"
+            android:src="@drawable/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/search2_btn"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/search2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/ssimg"
+            android:layout_gravity="center"
+            android:layout_marginRight="121dp"
+            android:layout_marginLeft="121dp"
+            android:src="@drawable/verybigsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Search_recyler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

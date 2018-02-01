@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sopt.seouri.login.LoginActivity">
+    <RelativeLayout
+        android:id="@+id/logIn_image"
+        android:background="@drawable/login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+    <com.kakao.usermgmt.LoginButton
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/com_kakao_login"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sopt.seouri.community.SeoulsiBulletinFragment">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableLeft="@drawable/ss"
+            android:hint="  검색"
+            android:paddingLeft="35dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8" />
+        <ImageView
+            android:src="@drawable/aa"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:text="글쓰기"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="4.0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5sp"
+        android:alpha="0.5"
+        android:background="#000000" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/seoulsiBulletin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

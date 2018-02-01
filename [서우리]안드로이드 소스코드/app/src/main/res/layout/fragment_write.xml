@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sopt.seouri.community.WriteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_marginTop="?attr/actionBarSize"
+                android:background="#D0EDEA"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <RelativeLayout
+                android:layout_marginTop="36dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="제목"
+                    android:textColor="#333333"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:textColor="#333333"
+                    android:textSize="16dp"
+                    android:id="@+id/W_title"
+                    android:paddingLeft="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/tt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:singleLine="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:alpha="0.4"
+                android:background="#95989A" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="28dp"
+                    android:gravity="center"
+                    android:id="@+id/aa"
+                    app:font="custom1"
+                    android:textSize="15dp"
+                    android:textColor="#333333"
+                    android:layout_toLeftOf="@+id/vv"
+                    android:text="첨부파일 이름"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/vv"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/clip"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <View
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/aa"
+                    android:layout_width="115dp"
+                    android:layout_height="1.5dp"
+                    android:alpha="0.4"
+                    android:background="#95989A" />
+            </RelativeLayout>
+
+            <EditText
+                android:lineSpacingExtra ="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/W_content"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="43dp"
+                android:background="@drawable/greenbox"
+                android:gravity="start"
+                android:hint="여기를 눌러 글을 작성할 수 있습니다\n(140자 제한)"
+                android:maxLength="140"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_marginBottom="19dp"
+                android:layout_marginTop="126dp"
+                android:src="@drawable/okay"
+                android:layout_gravity="center"
+                android:id="@+id/W_complete"
+                android:layout_width="150dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

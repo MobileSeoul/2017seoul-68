@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context="sopt.seouri.home.HomeFragment">
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp">
+            <com.dev.sacot41.scviewpager.SCViewPager
+                android:id="@+id/viewpager_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </com.dev.sacot41.scviewpager.SCViewPager>
+            <com.dev.sacot41.scviewpager.DotsView
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="7dp"
+                android:id="@+id/dotsview_main"
+                />
+        </RelativeLayout>
+        <View
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+        <TextView
+            android:text="이주의 마을기업"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/home_week_com1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <ImageView
+                android:background="@drawable/round_border"
+                android:id="@+id/main_week_seouri_imge_1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" />
+            <RelativeLayout
+                android:background="@drawable/mint_round_border"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/main_week_seouri_text_1"
+                    android:text="성북구 희망마을"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/home_week_com2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <ImageView
+                android:background="@drawable/round_border"
+                android:id="@+id/main_week_seouri_imge_2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" />
+            <RelativeLayout
+                android:background="@drawable/mint_round_border"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/main_week_seouri_text_2"
+                    android:text="성북구 희망마을"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="알림마당"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="공지사항"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/main_notice_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#5b5b5b"
+                    android:text="1 : ------------------------" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="공지사항"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/main_notice_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#5b5b5b"
+                    android:text="1 : ------------------------" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="공지사항"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/main_notice_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#5b5b5b"
+                    android:text="1 : ------------------------" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="공지사항"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/main_notice_4"
+                    android:textColor="#5b5b5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="1 : ------------------------" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="마을 기업 구인정보"
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/home_job_regisgter"
+                    android:textSize="14sp"
+                    android:textColor="#5b5b5b"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="15dp"
+                    android:text="등록하기"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/home_job_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <View
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="내 근처 마을기업"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/home_around_com"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:background="#F5F5F5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
